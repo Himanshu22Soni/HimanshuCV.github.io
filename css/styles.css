@@ -237,3 +237,21 @@ p {
     padding:5px;
   }
 }
+
+
+@media(min-width:580px) and (max-width:1450px) {
+  .myimage {
+
+    margin-right: 0;
+    margin-left:180px;
+
+  }
+}
+
+
+@media(min-width:580px) and (max-width:1450px) {
+  .content {
+    padding: 0 100px;
+    margin-left: 50px;
+  }
+}
