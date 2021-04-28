@@ -1,0 +1,239 @@
+/* Navbar */
+.navbar {
+  background-color: black;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title */
+#title {
+  background-color: black;
+}
+
+#H1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  padding: 0 20px 0 20px;
+}
+
+.container-fluid {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 2% 10%;
+  margin-top: 80px;
+}
+
+.myimage {
+  width: 400px;
+  height: 400px;
+  padding: 3%;
+  margin: 0px;
+  border-radius: 50%;
+}
+
+.chat-btn {
+  margin: 0 25px;
+}
+
+.resume-btn {
+  margin: 0;
+}
+
+/* Brand Name */
+.title {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Satisfy", cursive;
+  word-spacing: 2px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Features Section */
+.headFeatures {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.headParagraph {
+  text-align: center;
+  font-size: 17px;
+  padding: 0 10% 10% 10%;
+  color: grey;
+}
+
+#Features {
+  padding: 60px 40px 60px 40px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+#Feature {
+  margin-top: 0;
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+  line-height: 2;
+}
+
+.icon {
+  margin-bottom: 25px;
+}
+
+.icon:hover {
+  color: rgb(78, 78, 78);
+}
+
+#Security {
+  padding-bottom: 0;
+}
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.testimonial-icon {
+  height: 150px;
+  width: 150px;
+  margin: 10px 20px 20px 20px;
+  float: left;
+}
+
+.icon-images {
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin: 0 50px 0 50px;
+}
+.cricket {
+  filter: invert(100%);
+}
+
+.pubg {
+  filter: invert(100%);
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+}
+
+.web-paragraph {
+  padding: 30px 100px 30px 100px;
+}
+
+
+/* Achievements */
+
+#Achievements {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+
+}
+
+.cardPara {
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-size:20px;
+  
+}
+
+#Ach {
+  margin: 20px;
+  border:2px solid black;
+  display: inline-block;
+  border-radius:25px;
+}
+
+.cards {
+  margin: 10px 50px 50px 50px;
+  padding:20px;
+}
+
+
+@media(max-width:1300px) {
+  .btnchat {
+    margin: 20px 80px;
+    
+  }
+}
+
+@media(min-width:580px) and (max-width:1450px) {
+  .btnchat {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+}
+
+
+#footer {
+  text-align: center;
+  height: fit-content;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  padding:2% 30%;
+ 
+}
+
+.links {
+  padding-top:50px;
+  font-size: 30px;
+  color: white;
+  padding:10px;
+  margin: 0 5px;
+}
+
+.links:hover {
+  color: grey;
+}
+
+.footer-content:hover {
+  color:white;
+}
+
+
+.footer-content {
+  margin:100px auto 0px auto;
+  padding-bottom: 0;
+}
+
+
+@media(max-width:1300px) {
+  .footer-content {
+    text-align: center;
+    margin: 0;
+    padding:5px;
+  }
+}
